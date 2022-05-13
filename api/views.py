@@ -4,3 +4,6 @@ from django.http import JsonResponse
 
 def Home(request):
     return JsonResponse({"info":"FA18-BCS-000","name":"junaid"})
+
+
+
